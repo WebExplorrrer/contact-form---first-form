@@ -30,7 +30,7 @@ label{
     width: 80px;
     font-family: 'Halant', serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 32px;
 
 }
 .reg{
@@ -39,13 +39,13 @@ label{
     align-items: flex-start;
 }
 .reg label{
-    width: 50%;
+    width: 40%;
     margin-left: 142px;
     margin-top: 20px;
     margin-bottom: 50px;
 }
 .reg input{
-    width:90%;
+    width:40%;
     margin-right: 200px;
     height: 60px;
     margin-bottom: 30px;
@@ -57,28 +57,29 @@ label{
 }
 .selections{
     margin-left: 142px;
-    height: 40px;
+    height: 100px;
     font-weight: 500;
     font-size: 24px;
     font-family: 'Manrope', sans-serif;
     width: 100%;
 }
 .selections label{
-    margin-right: 80px;
-    width:40%
+    margin-right: 100px;
+    width:40%;
+    margin-bottom: 30px;
 }
 .selections select{
-    width: 33.5%;
-    height:50px;
+    width: 26%;
+    height:68px;
     border-radius: 5px;
-    margin-left:45px;
-    margin-bottom: 35px;
+    margin-left: 85px;
+    margin-bottom: 20px;
 }
 .selections input{
     margin: 0 10px;
 }
 .select{
-    margin-left: 142px;
+    margin-left: 150px;
     font-weight: 400;
     font-family: 'Manrope', sans-serif;
 }
@@ -90,29 +91,28 @@ label{
 }
 
 .ggroup label{
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: 150px;
+    margin-right: 175px;
 }
 .ggroup{
     font-weight: 500;
     font-size: 24px;
     font-family: 'Manrope', sans-serif;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .ggroup input{
     margin: 0 10px;
 }
 button{
-    width: 33%;
+    width: 26%;
     height: 60px;
     color: white;;
     background-color: blue;
     border-radius: 5px;
     text-align: center;
-    margin-left: 220px;
+    margin-left: 310px;
     padding: 3px;
-    align-items: end;
     font-weight: 600;
     font-family: 'Manrope', sans-serif;
 }
