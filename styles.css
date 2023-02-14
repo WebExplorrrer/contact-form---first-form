@@ -109,6 +109,7 @@ button{
     height: 60px;
     color: white;;
     background-color: #155EEF;
+    border-color: #155EEF;
     border-radius: 5px;
     text-align: center;
     margin-left: 310px;
