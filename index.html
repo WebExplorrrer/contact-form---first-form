@@ -11,8 +11,7 @@
 <body>
 
     <h2 class="header1">Contact Form</h2>
-    <div class="container">
-        <div class="par-container">
+          <!--<div class="par-div">
             <p>Name: </p>
             <p>Username: </p>
             <p>Password: </p>
@@ -22,10 +21,57 @@
             <p>Phone Number: </p>
             <p>Email: </p>
             <p>College: </p>
-        </div>
+        </div>-->
         <div class="form-div">
-            <form></form>
+            <form action="" method="get">
+                <div class="reg">
+                    <label for="name">Name: </label>  
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="reg">  
+                   <label for="username">Username: </label> 
+                    <input type="text" name="username" id="username" placeholder="Enter your username">
+                </div>
+                <div class="reg">  
+                   <label for="password">Password: </label> 
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                </div>
+                <div class="reg">
+                    <label for="re-type">Re-type Password: </label>
+                    <input type="password" name="re-type" id="re-type" placeholder="Enter your Password ">
+                </div>
+                <div class="ggroup">
+                        <label for="gend">Gender: </label>
+                        <input type="radio" name="gend" id="gend" checked>Male
+                        <input type="radio" name="gend" id="gend">Female
+                </div>
+                <div class="selections">
+                    <label for="techie skills">Techie Skills: </label>
+                    <input type="checkbox" name="techie skills" id="techie skills">HTML    
+                    <input type="checkbox" name="techie skills" id="techie skills">CSS    
+                    <input type="checkbox" name="techie skills" id="techie skills">JavaScript    
+                </div>
+                <div class="reg">
+                    <label for="phone number">Phone Number</label>
+                    <input type="tel" name="phone number" id="phone number" placeholder="Enter your phone number" pattern="[0-9]">
+                </div>
+                <div class="reg">
+                    <label for="email">Email: </label> 
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="selections">
+                    <label for="college">College: </label>
+                    <select id="college"> 
+                        <option label="UNILAG" value="UNILAG"></option>
+                        <option label="LASU" value="LASU"></option>
+                        <option label="LASPOTECH" value="LASPOTECH"></option>
+                        <option label="YABATECH" value="YABATECH"></option>
+                    </select>
+                
+                <div class="button">
+                    <button type="submit" value="Submit">Submit</button>
+                </div>   
+            </form>
         </div>
-    </div>
 </body>
 </html>
